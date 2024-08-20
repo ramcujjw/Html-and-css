@@ -1,0 +1,53 @@
+body{
+    background-image: url('../cat/FELV-cat.jpg');
+    background-size: cover;
+}
+#head{
+    background-color: #03346E;
+}
+#cat{
+    width: auto;
+    height: 50%;
+}
+#para1{
+    background-color: #FFDFD6;
+    text-align:center;
+    font-weight: 800;
+    color: #0D7C66;
+}
+#para2{
+    background-color: #E3A5C7;
+    font-size: small;
+
+
+}
+#para3{
+    background-color: #B692C2;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grp1{
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px double red;
+    
+}
+.ultype{
+    list-style-type: lower-greek;
+
+}
+
+    /* table */
+/* .table{
+    border: 4px solid red;
+    border-left: 3px double blue;
+} */
+table{
+    border-collapse: collapse;
+    border: 4px solid brown;
+    margin: 3% 30% 4% 40%;
+ }
+table td , th{
+    border-right: 4px solid red;
+    padding: 50px;
+}
+table tr{
+    border-bottom: 4px solid rgb(55, 0, 255);
