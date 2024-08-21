@@ -1,0 +1,65 @@
+/* positioning the image and para based on relative and absolute  */
+.grp1{
+    border: 5px solid rebeccapurple;
+   
+}
+.grp1 p {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: rgb(0, 132, 255);
+    text-align: justify;
+
+}
+.grp1 img{
+    position: relative;
+    /* margin: 20px; */
+
+}
+/*  css flexbox */
+.parent{
+    border: 5px dotted rgb(0, 0, 0);
+    margin-top: 5%;
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: stretch; */
+    /* align-content: space-evenly; */
+
+
+}
+
+.child{
+    border: 3px solid blue;
+    /* width: 5%; */
+    /* margin-right: 20px; */
+}
+/* header styling */
+header{
+    background-color: #7C93C3;
+    height: 50px;
+    
+
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    justify-content: flex-end;
+    column-gap: 20px;
+    /* margin: 20px; */
+    padding-top: 10px;
+
+}
+/* media query */
+@media screen  and (max-width:400px){
+    header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
