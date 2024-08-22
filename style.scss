@@ -1,0 +1,34 @@
+$primary:red;
+$back:blue;
+$textalign: center;
+.grp1{
+    h3{
+        color: $primary;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+    }
+}
+.grp5{
+    ol{
+        color: $primary;
+        background-color: $back;
+    }
+}
+.grp6{
+    h1{
+        text-align: $textalign;
+        color: $back;
+    }
+}
+@mixin common_style{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: $back;
+}
+.grp7{
+    p{
+        @include common_style(blue)
+}
+}

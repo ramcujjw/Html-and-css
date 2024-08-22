@@ -55,11 +55,13 @@ nav{
     padding-top: 10px;
 
 }
-/* media query */
-@media screen  and (max-width:400px){
+/* media query max anell 400 o athil tazhayo vannal ee change varanam */
+@media screen  and (max-width:400px){ 
     header nav{
         flex-direction: column;
         align-items: center;
     }
-    
+    header{
+        height: auto;
+    }
 }

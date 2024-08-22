@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(245, 123, 123);
+}
+
+.grp1 h1 {
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+}
+.grp1 h6 {
+  text-align: center;
+}
+.grp1 p {
+  font-weight: 700;
+}
+
+.grp7 {
+  border: 5px solid black;
+}/*# sourceMappingURL=style22.css.map */

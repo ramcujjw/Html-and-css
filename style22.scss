@@ -1,0 +1,26 @@
+$color:green;
+$weight:700;
+$align:center;
+$color2:rgb(245, 123, 123);
+$border: 5px solid black;
+body{
+    background-color: $color2;
+}
+.grp1{
+    h1{
+        color: $color ;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    h6{
+       text-align: $align;
+    }
+    p{
+        font-weight: $weight;
+      
+    }
+    
+}
+.grp7{
+    border: $border;
+}

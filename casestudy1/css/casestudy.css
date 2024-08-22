@@ -1,0 +1,33 @@
+body{
+    background-image: url('/casestudy1/img/large-29.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+}
+nav {
+    float: right;
+    margin-top: 30px;
+
+}
+#img1{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.txtgrp{
+    color: white;
+    margin-top: 10%;
+    margin-left: 3%;
+    width: 45%;
+   
+}
